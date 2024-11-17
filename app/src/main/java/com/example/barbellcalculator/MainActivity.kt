@@ -64,7 +64,7 @@ fun BarbellCalculator(modifier: Modifier = Modifier) {
             Row(
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Spacer(modifier = Modifier.width(16.dp))
+                Spacer(modifier = Modifier.width(64.dp))
                 for (plate in addedPlates) {
                     val imageRes = when (plate) {
                         25 -> R.drawable.plate_25
