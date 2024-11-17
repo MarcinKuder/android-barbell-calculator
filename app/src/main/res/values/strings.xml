@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Barbell Calculator</string>
+    <string name="total_barbell_weight">Total barbell weight: %1$s</string>
+    <string name="add_plate">Add %1$s</string>
+    <string name="clear">Clear</string>
 </resources>
