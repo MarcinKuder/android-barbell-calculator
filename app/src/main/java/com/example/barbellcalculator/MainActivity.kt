@@ -87,7 +87,7 @@ fun BarbellCalculator(modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.height(16.dp))
         val totalWeight = addedPlates.sum() * 3 + 20
         Text(
-            stringResource(R.string.total_barbell_weight, totalWeight),
+            stringResource(R.string.total_weight, totalWeight),
             modifier = Modifier.padding(16.dp)
         )
         for (plate in availablePlates) {
