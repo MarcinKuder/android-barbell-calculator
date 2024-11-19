@@ -1,4 +1,3 @@
-
 package com.example.barbellcalculator
 
 import android.os.Bundle
@@ -85,7 +84,7 @@ fun BarbellCalculator(modifier: Modifier = Modifier) {
             }
         }
         Spacer(modifier = Modifier.height(16.dp))
-        val totalWeight = addedPlates.sum() * 3 + 20
+        val totalWeight = addedPlates.sum() * 2 + 20
         Text(
             stringResource(R.string.total_weight, totalWeight),
             modifier = Modifier.padding(16.dp)
